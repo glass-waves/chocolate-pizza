@@ -48,3 +48,38 @@ export const ingredients = [
 		name: 'honey roasted pecans, roughly chopped'
 	}
 ];
+
+export const buttons = [
+	{
+		href: '#',
+		image: '../lab-assets/social-buttons/fb-icon.png'
+	},
+	{
+		href: '#',
+		image: '../lab-assets/social-buttons/flic-icon.png'
+	},
+	{
+		href: '#',
+		image: '../lab-assets/social-buttons/gp-icon.png'
+	},
+	{
+		href: '#',
+		image: '../lab-assets/social-buttons/insta-icon.png'
+	},
+	{
+		href: '#',
+		image: '../lab-assets/social-buttons/pint-icon.png'
+	},
+	{
+		href: '#',
+		image: '../lab-assets/social-buttons/rss-icon.png'
+	},
+	{
+		href: '#',
+		image: '../lab-assets/social-buttons/mail-icon.png'
+	},
+	{
+		href: '#',
+		image: '../lab-assets/social-buttons/twit-icon.png'
+	}
+];
