@@ -6,7 +6,7 @@ import ButtonList from './ButtonList.js';
 function App() {
   return (
     <div>
-      <ButtonList buttons={buttons} />
+      <ButtonList buttons = {buttons} />
       <IngredientList ingredients={ingredients}/>
     </div>
   );
