@@ -1,9 +1,10 @@
-import React from 'react';
+import React from 'react'
+import style from './stylesheets/IngredientList.module.css'
 
 export default class IngredientItem extends React.Component {
 	render() {
 		return (
-			<li>
+			<li className={style.item}>
 				{this.props.amount} {this.props.name}
 			</li>
 		);

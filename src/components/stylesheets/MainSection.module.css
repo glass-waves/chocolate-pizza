@@ -1,0 +1,26 @@
+.mainSection {
+	display: flex;
+	flex-direction: column;
+}
+
+.articleHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.pubInfo, .print {
+	color: gray;
+	font-size: .8rem;
+}
+
+.print span {
+	margin-left: .5rem;
+}
+
+.recipeText p {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-indent: 2rem;
+	line-height: 1.75rem;
+	padding: .5rem;
+}

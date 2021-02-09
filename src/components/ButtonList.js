@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Header.module.css'
+import style from './stylesheets/Header.module.css'
 
 export default class ButtonList extends React.Component {
 	render() {

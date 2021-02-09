@@ -1,0 +1,47 @@
+.footerContent {
+	display: grid;
+	grid-template-columns: fit-content 1fr fit-content;
+}
+
+.footerContent img {
+	margin: auto;
+}
+
+.authorInfo {
+	padding: .5rem;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	line-height: 1.75rem;
+}
+
+.authorInfo h4, .authorInfo p {
+	margin: .25rem 0;
+}
+
+.footerContent button {
+	grid-column: 3;
+	margin: auto;
+	background-color: tomato;
+	border: none;
+	padding: 1rem;
+	color: white;
+}
+
+.logoDivider {
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.hr {
+	width: 45%;
+	height: 0;
+	color: gray;
+}
+
+.credits {
+	text-align: center;
+	color: gray;
+	font-size: .8rem;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	line-height: .5rem;
+}

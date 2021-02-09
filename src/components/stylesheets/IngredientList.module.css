@@ -1,0 +1,15 @@
+.list {
+	list-style: circle;
+	line-height: 2rem;
+	height: 18rem;
+	padding: 2rem;
+	padding-left: 4rem;
+	font-family: cursive;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.item {
+	width: 50%;
+}

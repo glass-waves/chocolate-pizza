@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import style from './Header.module.css';
+import style from './stylesheets/Header.module.css';
 import ButtonList from './ButtonList.js';
-import { buttons } from './data.js';
+import { buttons } from '../data.js';
 
 export default class Header extends Component {
     render() {
