@@ -4,6 +4,7 @@ import ArticleHeader from './ArticleHeader.js'
 import ImageSection from './ImageSection.js'
 import IngredientList from './IngredientList.js'
 import Recipe from './Recipe.js'
+import Footer from './Footer.js'
 
 export default class MainSection extends React.Component {
     render() {
@@ -13,6 +14,7 @@ export default class MainSection extends React.Component {
                 <ImageSection />
                 <Recipe />
                 <IngredientList ingredients={ingredients}/>
+                <Footer />
             </main>
         )
     }
