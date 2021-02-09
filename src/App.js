@@ -1,4 +1,5 @@
 import { ingredients, buttons } from './data.js';
+import Header from "./Header.js";
 import './App.css';
 import IngredientList from './IngredientList.js';
 import ButtonList from './ButtonList.js';
@@ -6,7 +7,7 @@ import ButtonList from './ButtonList.js';
 function App() {
   return (
     <div>
-      <ButtonList buttons={buttons} />
+      <Header />
       <IngredientList ingredients={ingredients}/>
     </div>
   );
