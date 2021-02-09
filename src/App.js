@@ -1,13 +1,14 @@
-import { ingredients, buttons } from './data.js';
-import Header from "./Header.js";
 import './App.css';
+import Header from "./Header.js";
 import MainSection from './MainSection.js';
+import Footer from './Footer.js';
 
 function App() {
   return (
     <div>
       <Header />
       <MainSection />
+      <Footer />
     </div>
   );
 }

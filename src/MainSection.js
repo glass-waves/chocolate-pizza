@@ -14,7 +14,6 @@ export default class MainSection extends React.Component {
                 <ImageSection />
                 <Recipe />
                 <IngredientList ingredients={ingredients}/>
-                <Footer />
             </main>
         )
     }
