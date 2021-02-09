@@ -1,0 +1,40 @@
+.header {
+}
+
+.topHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 0;
+	
+}
+
+.masthead {
+	display: flex;
+	align-items: center;
+}
+
+.masthead img {
+	height: 60px;
+	width: 60px;
+}
+
+.siteName {
+}
+
+.siteName h2, .siteName p {
+	line-height: 20%;
+	margin-left: 1rem;
+}
+
+
+
+
+.buttonList {
+}
+
+.imageBorder {
+	width: 100vw;
+	height: 20px;
+	background-repeat: repeat;
+}
